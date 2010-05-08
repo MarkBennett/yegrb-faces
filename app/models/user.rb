@@ -3,6 +3,6 @@ class User < ActiveRecord::Base
   is_gravtastic!
 
   def as_json(options=nil)
-    {:gravatar => gravatar_url.split("?").first, :display_name=>display_name}
+    {:gravatar => gravatar_url.split("?").first, :display_name=>display_name, :id => self.id }
   end
 end

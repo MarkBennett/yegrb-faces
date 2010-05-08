@@ -1,2 +1,2 @@
-<%= user.display_name %>
+<a href="#/users/<%= user.id %>"><%= user.display_name %></a>
 <img src="<%= user.gravatar %>" />

@@ -1,2 +1,2 @@
-<h1><%= user.dislay_name %></h1>
+<h1><%= user.display_name %></h1>
 <p>This is where a bio would go!</p>
