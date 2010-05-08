@@ -1,5 +1,14 @@
 <%= form.label :email %><br />
 <%= form.text_field :email %><br />
+<br/>
+<%= form.label :display_name %><br />
+<%= form.text_field :display_name %><br />
+<br/>
+<%= form.label :github_account %><br />
+<%= form.text_field :github_account %><br />
+<br/>
+<%= form.label :twitter_account %><br />
+<%= form.text_field :twitter_account %><br />
 <br />
 <%= form.label :password, form.object.new_record? ? nil : "Change password" %><br />
 <%= form.password_field :password %><br />
